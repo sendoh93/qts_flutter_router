@@ -1,12 +1,14 @@
 QtsRouter使用说明：
 
 1.在页面使用路由注解 列如：@ARoute(url: 'myapp://pagetwo')
+
 2.生命需接受参数的构造函数。
 
 		final ARouteOption option;
      	PageTwo(this.option) : super();
 
 3.在Terminal控制台输入并执行 bash build.sh 生成相对应的映射文件
+
 4.跳转使用：
 
             MaterialButton(onPressed: () {
